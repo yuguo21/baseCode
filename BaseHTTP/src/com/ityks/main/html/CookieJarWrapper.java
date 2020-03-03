@@ -7,7 +7,11 @@ import java.util.List;
 import okhttp3.Cookie;
 import okhttp3.CookieJar;
 import okhttp3.HttpUrl;
-
+/**
+ * 支持cookie同步
+ * @author yuguo
+ *
+ */
 public class CookieJarWrapper implements CookieJar{
 
 	private final HashMap<String, List<Cookie>> cookieStore = new HashMap<>();
